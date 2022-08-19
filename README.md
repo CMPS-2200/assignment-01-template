@@ -30,7 +30,7 @@ To complete this assignment, follow the instructions in [assignment-01.md](assig
   + You may also have to install other python modules such as `tabulate` or other imported modules as you work through these recitations.
 - It's usually best to run only one test at a time. To run tests, from the command-line, execute:
   + `$ pytest main.py` to run all tests
-  + `$ pytest main.py::test_binary_search` to just run `test_binary_search`
+  + `$ pytest main.py::test_one` to just run `test_one`
   + GitHub will test your code using `pytest`.
 - If you want to run your whole program, make sure to use `python3`. `python` might still default to python version 2.
 
