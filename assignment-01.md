@@ -85,6 +85,7 @@ $g(n) \in o(f(n))$ means that for **every** positive constant $c$, there exists 
 2. **SPARC to Python**
 
 Consider the following SPARC code:  
+
 $$
 \begin{array}{l}
 \mathit{foo}~x =   \\
