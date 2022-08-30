@@ -11,7 +11,7 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 
   - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not? 
 
-      **Enter your answer in answers.md**
+      **Enter answers in `answers.md`**
 .  
 .  
 .  
@@ -19,7 +19,7 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 . 
   - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?    
 
-      **Enter your answer in answers.md** 
+      **Enter answers in `answers.md`**
 .  
 .  
 .  
@@ -27,7 +27,7 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 .  
   - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?   
 
-      **Enter your answer in answers.md** 
+      **Enter answers in `answers.md`** 
 .  
 .  
 .  
@@ -35,21 +35,21 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 
   - 1d. Is $n^{1.01} \in \Omega(\mathrm{log}^2 n)$?  
 
-      **Enter your answer in answers.md**
+      **Enter answers in `answers.md`**
 .  
 .  
 .  
 .  
   - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?  
 
-      **Enter your answer in answers.md**
+      **Enter answers in `answers.md`**
 .  
 .  
 .  
 .  
   - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$? 
 
-      **Enter your answer in answers.md** 
+      **Enter answers in `answers.md`** 
 .  
 .  
 .  
@@ -63,7 +63,7 @@ $g(n) \in o(f(n))$ means that for **every** positive constant $c$, there exists 
 
 **Prove** that $o(g(n)) \cap \omega(g(n))$ is the empty set.  
 
-  **Enter your answer in answers.md**
+  **Enter answers in `answers.md`**
 .  
 .  
 .  
@@ -99,7 +99,7 @@ $$
 
   - 2b. What does this function do, in your own words?  
 
-    **Enter your answer in answers.md**
+    **Enter answers in `answers.md`**
 .  
 .  
 .  
@@ -129,7 +129,7 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
 
   - 3b. What is the Work and Span of this implementation?  
 
-      **Enter your answer in answers.md**
+      **Enter answers in `answers.md`**
 
 .  
 .  
@@ -146,7 +146,7 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
 
   - 3d. What is the Work and Span of this recursive algorithm?  
 
-      **Enter your answer in answers.md**
+      **Enter answers in `answers.md`**
 .  
 .  
 .  
@@ -162,7 +162,7 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
 
   - 3e. Assume that we parallelize in a similar way we did with `sum_list_recursive`. That is, each recursive call spawns a new thread. What is the Work and Span of this algorithm?  
 
-    **Enter your answer in answers.md**
+    **Enter answers in `answers.md`**
 .  
 .  
 .  
