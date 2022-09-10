@@ -40,14 +40,14 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 .  
 .  
 .  
-  - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?  
+  - 1e. Is $\sqrt{n} \in O(\mathrm{log}^3 n)$?  
 
       **Enter answers in `answers.md`**
 .  
 .  
 .  
 .  
-  - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$? 
+  - 1f. Is $\sqrt{n} \in \Omega(\mathrm{log}^3 n)$? 
 
       **Enter answers in `answers.md`** 
 .  
