@@ -7,7 +7,7 @@ Please add your written answers to `answers.md` which you can convert to a PDF
 using `convert.sh`. Alternatively, you may scan and upload written answers
 to a file names `answers.pdf`.
   
-1. **Asymptotic notation**
+1. **Asymptotic notation (2 pts ea.)**
 
   - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not? 
 
@@ -95,9 +95,9 @@ $$
 \end{array}
 $$ 
 
-  - 2a. Translate this to Python code -- fill in the `def foo` method in `main.py`  
+  - 2a. Translate this to Python code -- fill in the `def foo` method in `main.py` (4 pts) 
 
-  - 2b. What does this function do, in your own words?  
+  - 2b. What does this function do, in your own words? (2 pts)
 
     **Enter answers in `answers.md`**
 .  
@@ -125,28 +125,28 @@ def longest_run(myarray, key)
 ```
 E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`  
  
-  - 3a. First, implement an iterative, sequential version of `longest_run` in `main.py`.  
+  - 3a. First, implement an iterative, sequential version of `longest_run` in `main.py`. (8 pts) 
 
-  - 3b. What is the Work and Span of this implementation?  
-
-      **Enter answers in `answers.md`**
-
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-
-
-  - 3c. Next, implement a `longest_run_recursive`, a recursive, divide and conquer implementation. This is analogous to our implementation of `sum_list_recursive`. To do so, you will need to think about how to combine partial solutions from each recursive call. Make use of the provided class `Result`.   
-
-  - 3d. What is the Work and Span of this recursive algorithm?  
+  - 3b. What is the Work and Span of this implementation? (4 pts)
 
       **Enter answers in `answers.md`**
+
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+
+
+  - 3c. Next, implement a `longest_run_recursive`, a recursive, divide and conquer implementation. This is analogous to our implementation of `sum_list_recursive`. To do so, you will need to think about how to combine partial solutions from each recursive call. Make use of the provided class `Result`. (8 pts)
+
+  - 3d. What is the Work and Span of this recursive algorithm? (4 pts)
+
+      **Enter answers in `answers.md`**
 .  
 .  
 .  
@@ -160,7 +160,7 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
 .  
 
 
-  - 3e. Assume that we parallelize in a similar way we did with `sum_list_recursive`. That is, each recursive call spawns a new thread. What is the Work and Span of this algorithm?  
+  - 3e. Assume that we parallelize in a similar way we did with `sum_list_recursive`. That is, each recursive call spawns a new thread. What is the Work and Span of this algorithm? (5 pts) 
 
     **Enter answers in `answers.md`**
 .  
